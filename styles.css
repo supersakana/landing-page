@@ -1,0 +1,187 @@
+/*HTML--------------------- */
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1f2937;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #fff;
+}
+
+button{
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #3b81f5;
+    color: #fff;
+}
+
+button:hover{
+    background-color:deepskyblue;
+}
+
+/*TEXT--------------------- */
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #e4e7ea;
+}
+
+/* HEADER--------------------- */
+
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+}
+
+.nav-links{
+    display: flex;
+    gap: 15px;
+}
+
+/* SECTION 1--------------------- */
+.section-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    height: 60vh;
+    color: #fff;
+}
+
+.hero-cta{
+    max-width: 500px;
+}
+
+.hero-title{
+    margin-bottom: -10px;
+}
+
+.hero-img{
+    width: 450px;
+    height: 350px;
+}
+/* SECTION 2--------------------- */
+
+.section-two{
+    height: 60vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.icon{
+    width: 200px;
+}
+
+.item-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 75px;
+}
+
+.item{
+    max-width: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+/* SECTION 3--------------------- */
+
+.section-three{
+    height: 50vh;
+    width: 100%;
+    background-color: #e4e7ea;
+}
+
+.quote{
+    width: 600px;
+    margin: 130px auto 0 auto;
+    font-size: 35px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.signature{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/* SECTION 4--------------------- */
+
+.section-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    padding: 30px 0px 30px 70px;
+    border-radius: 8px;
+    background-color: #3b81f5;
+    color: #fff;
+}
+
+.cta-title{
+    margin-bottom: -10px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.cta-button{
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+/* FOOTER--------------------- */
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+}
+
+
